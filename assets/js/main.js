@@ -186,7 +186,7 @@
       };
 
       try {
-        const response = await fetch('https://YOUR_NETLIFY_SITE_NAME.netlify.app/.netlify/functions/send-email', {
+        const response = await fetch('https://aesthetic-sable-fa7f31.netlify.app/.netlify/functions/send-email', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload),
